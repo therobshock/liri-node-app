@@ -62,7 +62,7 @@ function concertThis(artist) {
             for (var i = 0; i < results.length; i++) {
 
                 var venue = results[i].venue;
-                var eventDate = results[i].datetime;
+                var eventDate = moment(results[i].datetime).format("MM/DD/YYYY");
                 
                 console.log("\n" + venue.name);
                 console.log(venue.city + ", " + venue.country);
