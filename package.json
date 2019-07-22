@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/therobshock/liri-node-app#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "dotenv": "^7.0.0",
     "keys.js": "^1.0.2",
     "moment": "^2.24.0",
